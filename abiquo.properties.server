@@ -1,0 +1,10 @@
+[server]
+abiquo.server.sessionTimeout = 30
+abiquo.server.mail.server = 127.0.0.1
+abiquo.server.mail.user = none@none.es
+abiquo.server.mail.password = none
+abiquo.rabbitmq.username = guest
+abiquo.rabbitmq.password = guest
+abiquo.rabbitmq.host = 127.0.0.1
+abiquo.rabbitmq.port = 5672
+
