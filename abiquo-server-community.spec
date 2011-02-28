@@ -2,7 +2,7 @@
 
 Name:           abiquo-server-community
 Version:        1.7
-Release:        3%{?dist}%{?buildstamp}
+Release:        4%{?dist}%{?buildstamp}
 Url:            http://www.abiquo.com/
 License:        Multiple
 Group:          Development/Tools
@@ -45,6 +45,9 @@ rm -rf $RPM_BUILD_ROOT
 %{abiquo_basedir}/config/examples/abiquo.properties.server
 
 %changelog
+* Mon Feb 14 2011 Sergio Rubio <srubio@abiquo.com> - 1.7-4
+- updated release string
+
 * Wed Feb 02 2011 Sergio Rubio <srubio@abiquo.com> - 1.7-3
 - set buildarch to noarch
 
